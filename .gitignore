@@ -1,0 +1,5 @@
+.vs
+PROJECT/External/Include/Engine/*
+PROJECT/External/Include/Script/*
+PROJECT/External/Library/Engine/*
+PROJECT/External/Library/Script/*

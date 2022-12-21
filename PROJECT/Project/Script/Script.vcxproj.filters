@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>Script\Dungreed\Unit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraScript.h">
+      <Filter>Script\Dungreed\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneSaveLoad.h">
+      <Filter>ScriptMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptMgr.h">
+      <Filter>ScriptMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CInventoryUIScript.h">
+      <Filter>Script\Dungreed\UI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerInfoUIScript.h">
+      <Filter>Script\Dungreed\UI\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeaponUIScript.h">
+      <Filter>Script\Dungreed\UI\Player\WeaponUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIManagerScript.h">
+      <Filter>Script\Dungreed\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManagerScript.h">
+      <Filter>Script\Dungreed\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CDontDestroyOnLoadScript.h">
+      <Filter>Script\Dungreed\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleScript.h">
+      <Filter>Script\Dungreed\Stage\TITLE</Filter>
+    </ClInclude>
+    <ClInclude Include="NO_SCRIPT\Define.h">
+      <Filter>NO_SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="CHPBarScript.h">
+      <Filter>Script\Dungreed\UI\Player\LifeUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CDashUIScript.h">
+      <Filter>Script\Dungreed\UI\Player\DashUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CColliderTileScript.h">
+      <Filter>Script\Dungreed\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossSwordScript.h">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossScript.h">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossLaserScript.h">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossHandScript.h">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossBulletScript.h">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CBansheeBulletScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\Banshee</Filter>
+    </ClInclude>
+    <ClInclude Include="CBansheeScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\Banshee</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterHPBarScript.h">
+      <Filter>Script\Dungreed\Unit\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterScript.h">
+      <Filter>Script\Dungreed\Unit\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CGravityScript.h">
+      <Filter>Script\Dungreed\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnitScript.h">
+      <Filter>Script\Dungreed\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="CDamageUIScript.h">
+      <Filter>Script\Dungreed\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBatBulletScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\Bat_Giant_Normal_Red</Filter>
+    </ClInclude>
+    <ClInclude Include="CGiantBatScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\Bat_Giant_Normal_Red</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkelScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\Skel</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkelSwordScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\Skel</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmallBatScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\Bat_Small_Normal_Red</Filter>
+    </ClInclude>
+    <ClInclude Include="CGhostScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\Ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkelDogScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\SkelDog</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkelKnightAttackScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\SkelKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkelKnightScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\SkelKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkelArcherScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\SkelArcher</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkelArrowScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\SkelArcher</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkelBowScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\SkelArcher</Filter>
+    </ClInclude>
+    <ClInclude Include="CMinotaursAttackScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\Minotaurs</Filter>
+    </ClInclude>
+    <ClInclude Include="CMinotaursScript.h">
+      <Filter>Script\Dungreed\Unit\Monster\Minotaurs</Filter>
+    </ClInclude>
+    <ClInclude Include="CAfterImageScript.h">
+      <Filter>Script\Dungreed\Unit\Player\AfterImage</Filter>
+    </ClInclude>
+    <ClInclude Include="CMouseScript.h">
+      <Filter>Script\Dungreed\Unit\Player\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeaponScript.h">
+      <Filter>Script\Dungreed\Unit\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemHolderScript.h">
+      <Filter>Script\Dungreed\Unit\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttackScript.h">
+      <Filter>Script\Dungreed\Unit\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterSummonScript.h">
+      <Filter>Script\Dungreed\Unit\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CWarnEffectScript.h">
+      <Filter>Script\Dungreed\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextScript.h">
+      <Filter>Script\Dungreed\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossHPScript.h">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoorScript.h">
+      <Filter>Script\Dungreed\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CFadeEffectScript.h">
+      <Filter>Script\Dungreed\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CStageScript.h">
+      <Filter>Script\Dungreed\Stage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Script.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>Script\Dungreed\Unit\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraScript.cpp">
+      <Filter>Script\Dungreed\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneSaveLoad.cpp">
+      <Filter>ScriptMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptMgr.cpp">
+      <Filter>ScriptMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CInventoryUIScript.cpp">
+      <Filter>Script\Dungreed\UI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerInfoUIScript.cpp">
+      <Filter>Script\Dungreed\UI\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeaponUIScript.cpp">
+      <Filter>Script\Dungreed\UI\Player\WeaponUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIManagerScript.cpp">
+      <Filter>Script\Dungreed\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectManagerScript.cpp">
+      <Filter>Script\Dungreed\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CDontDestroyOnLoadScript.cpp">
+      <Filter>Script\Dungreed\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleScript.cpp">
+      <Filter>Script\Dungreed\Stage\TITLE</Filter>
+    </ClCompile>
+    <ClCompile Include="CHPBarScript.cpp">
+      <Filter>Script\Dungreed\UI\Player\LifeUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CDashUIScript.cpp">
+      <Filter>Script\Dungreed\UI\Player\DashUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CColliderTileScript.cpp">
+      <Filter>Script\Dungreed\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossSwordScript.cpp">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossScript.cpp">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossLaserScript.cpp">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossHandScript.cpp">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossBulletScript.cpp">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CBansheeBulletScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\Banshee</Filter>
+    </ClCompile>
+    <ClCompile Include="CBansheeScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\Banshee</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterHPBarScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CGravityScript.cpp">
+      <Filter>Script\Dungreed\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnitScript.cpp">
+      <Filter>Script\Dungreed\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CDamageUIScript.cpp">
+      <Filter>Script\Dungreed\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBatBulletScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\Bat_Giant_Normal_Red</Filter>
+    </ClCompile>
+    <ClCompile Include="CGiantBatScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\Bat_Giant_Normal_Red</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkelScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\Skel</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkelSwordScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\Skel</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmallBatScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\Bat_Small_Normal_Red</Filter>
+    </ClCompile>
+    <ClCompile Include="CGhostScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\Ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkelDogScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\SkelDog</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkelKnightAttackScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\SkelKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkelKnightScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\SkelKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkelArcherScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\SkelArcher</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkelArrowScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\SkelArcher</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkelBowScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\SkelArcher</Filter>
+    </ClCompile>
+    <ClCompile Include="CMinotaursAttackScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\Minotaurs</Filter>
+    </ClCompile>
+    <ClCompile Include="CMinotaursScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster\Minotaurs</Filter>
+    </ClCompile>
+    <ClCompile Include="CAfterImageScript.cpp">
+      <Filter>Script\Dungreed\Unit\Player\AfterImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CMouseScript.cpp">
+      <Filter>Script\Dungreed\Unit\Player\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeaponScript.cpp">
+      <Filter>Script\Dungreed\Unit\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemHolderScript.cpp">
+      <Filter>Script\Dungreed\Unit\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttackScript.cpp">
+      <Filter>Script\Dungreed\Unit\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterSummonScript.cpp">
+      <Filter>Script\Dungreed\Unit\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CWarnEffectScript.cpp">
+      <Filter>Script\Dungreed\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextScript.cpp">
+      <Filter>Script\Dungreed\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossHPScript.cpp">
+      <Filter>Script\Dungreed\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoorScript.cpp">
+      <Filter>Script\Dungreed\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CFadeEffectScript.cpp">
+      <Filter>Script\Dungreed\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CStageScript.cpp">
+      <Filter>Script\Dungreed\Stage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{5af2d85a-2f9c-4937-9fa8-e14337ba7274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{ac27a7a1-23b1-4a47-8b9b-231c2e57487d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed">
+      <UniqueIdentifier>{f57b10a2-b64b-4cdb-82a5-c4fe0c858a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Manager">
+      <UniqueIdentifier>{255403e1-332d-4710-9b54-806a56b1b52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\UI">
+      <UniqueIdentifier>{51a01dcf-dc01-46d2-a563-4f68628baee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Stage">
+      <UniqueIdentifier>{1b10d3b3-21ef-4d9d-8de2-036c0fd8da93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptMgr">
+      <UniqueIdentifier>{e2d3be17-b062-49c6-9ee9-846b7e88e176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\UI\Inventory">
+      <UniqueIdentifier>{e9a21e0f-06dc-4e39-bbce-d035fc4882ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\UI\Player">
+      <UniqueIdentifier>{f8947285-3005-4cf0-baae-3cd784db1319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\UI\Player\WeaponUI">
+      <UniqueIdentifier>{49a8bfe2-29ef-4181-a2a6-1d6661b83d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\UI\Player\DashUI">
+      <UniqueIdentifier>{db8d30e1-9168-486b-81a5-31f0db8a487e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\UI\Player\LifeUI">
+      <UniqueIdentifier>{a1c29296-304e-4156-b48b-e43affe305ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\UI\Player\InfoUI">
+      <UniqueIdentifier>{5fd12ce6-930e-4e30-8aea-2aa2596e476e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NO_SCRIPT">
+      <UniqueIdentifier>{6544132e-d82a-4fd9-bef9-d1b3022d40af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Tile">
+      <UniqueIdentifier>{8eab9c07-7c88-439c-b03d-4ba95c43cb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit">
+      <UniqueIdentifier>{8e7089b2-409c-4a1b-b7cf-fef4f805ee8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Player">
+      <UniqueIdentifier>{2e2e2e2d-9799-4223-abd0-9632ff5676d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Monster">
+      <UniqueIdentifier>{528ded7a-5eb3-40e9-80c5-4e47f5c49b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Monster\Banshee">
+      <UniqueIdentifier>{cc302df2-7f37-43e2-aae5-8edab2fa5420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Boss">
+      <UniqueIdentifier>{974c3a82-f0f5-43b8-b8ce-668b6878df09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Monster\Skel">
+      <UniqueIdentifier>{d3929aed-b39d-4072-bd58-b766299d2a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Monster\SkelArcher">
+      <UniqueIdentifier>{a7e0c6ff-b414-46d5-83a7-c397f9a7da86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Monster\SkelKnight">
+      <UniqueIdentifier>{3fa6f148-75dc-4d94-8373-7dec459e540d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Monster\Ghost">
+      <UniqueIdentifier>{3cf3d60e-909e-4706-be8f-e902384aeee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Monster\SkelDog">
+      <UniqueIdentifier>{4fd18f76-5b66-4f51-bab9-5bfd5f1855e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Monster\Minotaurs">
+      <UniqueIdentifier>{67d2c408-fb01-4d27-ba50-d9dccb10c244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Player\AfterImage">
+      <UniqueIdentifier>{91aeec19-668c-4754-87cd-9ec2e66ba104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Player\Mouse">
+      <UniqueIdentifier>{771e3e83-a3cc-4a52-a6cd-1f75bd0054e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Player\Weapon">
+      <UniqueIdentifier>{90e4478e-19f5-4c1e-938d-cbaab0a87a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Monster\Bat_Giant_Normal_Red">
+      <UniqueIdentifier>{17990d0b-e72a-4cfb-a103-c77cf8f53ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Unit\Monster\Bat_Small_Normal_Red">
+      <UniqueIdentifier>{a0baeb10-05db-4142-aff3-d762c7bf87dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dungreed\Stage\TITLE">
+      <UniqueIdentifier>{91bebd18-2fb7-4f89-bbe6-250df7096449}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

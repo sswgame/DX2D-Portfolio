@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FileLoader.cpp" />
+    <ClCompile Include="StringHelper.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileLoader.h" />
+    <ClInclude Include="StringHelper.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="pch.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{ebeb3649-9e70-481d-93d2-609e754efc65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

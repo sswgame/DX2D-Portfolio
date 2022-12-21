@@ -1,0 +1,2 @@
+PROJECT/OutputFile/* filter=lfs diff=lfs merge=lfs -text
+PROJECT/External/* filter=lfs diff=lfs merge=lfs -text
